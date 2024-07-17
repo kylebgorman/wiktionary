@@ -1,0 +1,27 @@
+[project]
+name = "wiktionary"
+version = "0.0.1"
+description = "Look up words on Wiktionary"
+readme = "README.md"
+requires-python = ">= 3.8"
+license = { text = "Apache 2.0" }
+authors = [{name = "Kyle Gorman"}]
+keywords = ["computational linguistics", "language"]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+wiktionary = "wiktionary:main"
+
+[project.urls]
+homepage = "https://github.com/CUNY-CL/yoyodyne"
